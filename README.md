@@ -44,6 +44,11 @@ It was created on Heroku.
 ---
 ## Usage 
 To create notes for any reason.
+
+The deployed application: https://stark-scrubland-23380.herokuapp.com/ 
+
+The GitHub site: https://github.com/marksmoore/Note-Taker
+
 ---
 ## License
 This project is licensed under the MIT License license.
