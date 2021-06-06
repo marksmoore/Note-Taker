@@ -5,6 +5,9 @@
 ---
 ## Description 
 The project allows a user to take notes.  It writes the notes and saves them automatically.
+<img src= "Note-Taker.jpg">
+<img src= "Notes.jpg">
+
 
 User Story <br>
 <br>
