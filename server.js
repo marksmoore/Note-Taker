@@ -5,12 +5,12 @@ var fs = require("fs")
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 3000;
-git 
+var PORT = process.env.PORT || 3001;
+
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
 app.use(express.static("public"));
+app.use(express.json());
 
 // HTML Routes
 // =============================================================
@@ -22,7 +22,6 @@ app.get("/", function (req, res) {
 
 app.get("/notes", function (req, res) {
   res.sendFile(path.join(__dirname, "/public/notes.html"));
-
 });
 
 app.post("/api/notes", function (req, res) {
